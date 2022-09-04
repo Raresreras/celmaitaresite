@@ -1,0 +1,65 @@
+#main_div {
+    width:1400px;
+    height:700px;
+    background-color: grey;
+    margin:auto;
+}
+
+#a {
+    display: flex;
+}
+
+#a div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-left:65px;
+    margin-top: 20px;
+}
+
+#b {
+    display: flex;
+}
+
+#b div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-left:65px;
+    margin-top: 20px;
+}
+
+#c {
+    display: flex;
+}
+
+#c div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-left:65px;
+    margin-top: 20px;
+}
+
+#lower_div {
+    background-color: grey;
+    margin:auto;
+    margin-top: 50px;
+    width:1400px;
+    display:flex;
+}
+
+#status {
+    margin-left: 400px;
+}
+
+#balance p{
+    color:white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#status p{
+    color:white;
+    font-size: 25px;
+}
