@@ -1,21 +1,3 @@
-var a1;
-var a2;
-var a3;
-var a4;
-var a5;
-
-var b1;
-var b2;
-var b3;
-var b4;
-var b5;
-
-var c1;
-var c2;
-var c3;
-var c4;
-var c5;
-
 let counter;
 let balance_value = 5000;
 
@@ -25,12 +7,26 @@ function rand(max) {
     return Math.floor(Math.random() * max);
 }
 
-document.body.onkeyup = function(e) {
-    if (e.key == " " ||
-        e.code == "Space" ||      
-        e.keyCode == 32      
-    ) {
+function main_code(){
         document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+        var a1;
+        var a2;
+        var a3;
+        var a4;
+        var a5;
+        
+        var b1;
+        var b2;
+        var b3;
+        var b4;
+        var b5;
+        
+        var c1;
+        var c2;
+        var c3;
+        var c4;
+        var c5;
 
         balance_value -= 1000
 
@@ -135,5 +131,13 @@ document.body.onkeyup = function(e) {
         }
 
         document.getElementById("pbalance").innerHTML = "Balance: " + String(balance_value) + " lei";
+}
+
+document.body.onkeyup = function(e) {
+    if (e.key == " " ||
+        e.code == "Space" ||      
+        e.keyCode == 32      
+    ) {
+        main_code();
     }
 }
